@@ -1,0 +1,121 @@
+locale = C.UTF-8
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+recognized 'normal' (-1) as variant normal
+shuffleOpenings = 0
+shuffleOpenings = 0
+Version: xboard 4.9.1 + make ()
+Reset(1, 0) from gameMode 0
+recognized 'normal' (-1) as variant normal
+GameEnds(0, (null), 2)
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+273 >first : xboard
+protover 2
+295 <first : make[1]: Entering directory '/mnt/c/Users/sbarn/Desktop/chess'
+308 <first : 
+309 <first : feature done=0 sigint=0 sigterm=0 san=0 reuse=0 usermove=1 analyze=0 ping=0 setboard=0 level=0 variants="crazyhouse" name="Bongcloud" myname="Bongcloud" done=1
+309 >first : accepted done
+310 >first : accepted sigint
+310 >first : accepted sigterm
+310 >first : accepted san
+311 >first : accepted reuse
+311 >first : accepted usermove
+312 >first : accepted analyze
+312 >first : accepted ping
+312 >first : accepted setboard
+313 >first : accepted level
+313 >first : accepted variants
+314 >first : accepted name
+314 >first : accepted myname
+315 >first : accepted done
+recognized 'crazyhouse' (-1) as variant crazyhouse
+Reset(1, 0) from gameMode 0
+recognized 'crazyhouse' (-1) as variant crazyhouse
+GameEnds(0, (null), 2)
+318 >first : quit
+shuffleOpenings = 0
+StartChildProcess (dir=".") make run
+355 >first : xboard
+protover 2
+356 >first : new
+random
+356 >first : variant crazyhouse
+357 >first : level 40 5 0
+357 >first : post
+358 >first : hard
+379 <first : make[1]: Entering directory '/mnt/c/Users/sbarn/Desktop/chess'
+391 <first : 
+391 <first : feature done=0 sigint=0 sigterm=0 san=0 reuse=0 usermove=1 analyze=0 ping=0 setboard=0 level=0 variants="crazyhouse" name="Bongcloud" myname="Bongcloud" done=1
+391 >first : accepted done
+392 >first : accepted sigint
+392 >first : accepted sigterm
+392 >first : accepted san
+393 >first : accepted reuse
+393 >first : accepted usermove
+393 >first : accepted analyze
+394 >first : accepted ping
+394 >first : accepted setboard
+394 >first : accepted level
+395 >first : accepted variants
+395 >first : accepted name
+395 >first : accepted myname
+396 >first : accepted done
+nps: w=-1, b=-1
+2103 >first : name cristian
+nps: w=-1, b=-1
+2104 >first : time 30000
+2105 >first : otim 30000
+book hit = (NULL)
+2106 >first : usermove 2106 >first : e2e4
+2107 <first : move a7a6
+2890 >first : time 29999
+2891 >first : otim 29921
+book hit = (NULL)
+2892 >first : usermove 2892 >first : d2d4
+2893 <first : move f7f5
+3443 >first : time 29999
+3443 >first : otim 29866
+book hit = (NULL)
+3444 >first : usermove 3445 >first : c2c4
+3446 <first : move d7d6
+4223 >first : time 29998
+4223 >first : otim 29789
+book hit = (NULL)
+4224 >first : usermove 4225 >first : e4f5
+4226 <first : move a6a5
+4783 >first : time 29998
+4784 >first : otim 29733
+book hit = (NULL)
+4784 >first : usermove 4785 >first : d4d5
+4786 <first : move h7h5
+5343 >first : time 29998
+5343 >first : otim 29677
+book hit = (NULL)
+5344 >first : usermove 5345 >first : c4c5
+5346 <first : move b7b6
+6378 >first : time 29998
+6378 >first : otim 29574
+book hit = (NULL)
+6379 >first : usermove 6380 >first : c5d6
+6381 <first : move c8b7
+7251 >first : time 29997
+7252 >first : otim 29487
+book hit = (NULL)
+7253 >first : usermove 7253 >first : d6d7
+7254 <first : move e8f7
+9646 >first : time 29997
+9647 >first : otim 29248
+book hit = (NULL)
+9648 >first : usermove 9648 >first : d1e2
+9650 <first : move g7g6
+10826 >first : time 29996
+10827 >first : otim 29130
+book hit = (NULL)
+10828 >first : usermove 10828 >first : e2e6
+10829 <first : move f7g7
+13329 >first : usermove 13330 >first : e6g6
+GameEnds(26, Xboard adjudication: Checkmate, 4)
+13331 >first : result 1-0 {Xboard adjudication: Checkmate}
+13331 >first : quit
+GameEnds(26, Xboard adjudication: Checkmate, 2)
