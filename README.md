@@ -6,7 +6,7 @@ This is a basic bot, written in C++, that plays the Crazyhouse mode of chess. Th
 >make
 
 **Then, run:**
-> make xboard
+>make xboard
 
 After that, a XBoard window will open and you can start playing chess against the bot.
 For this project to run, you must have XBoard and g++ compiler installed locally.
