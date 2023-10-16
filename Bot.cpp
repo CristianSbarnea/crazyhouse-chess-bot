@@ -1219,7 +1219,7 @@ Move* Bot::calculateNextMove() {
     i = iblackKing;
     j = jblackKing;
   }
- // char k = playSide == WHITE ? 'k' : 'K';
+
   // forcing castle
   if (canCastleKSide(playSide) == true && playSide == WHITE) {
     moves.push_back(Move::moveTo(getPos(0, 4), getPos(0, 6)));
@@ -1229,15 +1229,7 @@ Move* Bot::calculateNextMove() {
     moves.push_back(Move::moveTo(getPos(7, 4), getPos(7, 6)));
   } else if (canCastleQSide(playSide) == true && playSide == BLACK) {
     moves.push_back(Move::moveTo(getPos(7, 4), getPos(7, 2)));
-  } 
-  // else if (playSide == WHITE && pwhite.empty() == false) {
-  //   cout << pwhite.size() << "mue" <<endl;
-  //   moves = getDropIn(playSide);
-  // } else if (playSide == BLACK && pblack.empty() == false) {
-  //   cout << pblack.size() << "meS" <<endl;
-  //   moves = getDropIn(playSide);
-  // }
-   else if (isSquareAttacked(playSide, getPos(i, j)).size() != 0) {
+  } else if (isSquareAttacked(playSide, getPos(i, j)).size() != 0) {
     moves = getKingMoves(getPos(i, j));
   } else {
     moves = getAllMoves(playSide);
@@ -1260,19 +1252,6 @@ Move* Bot::calculateNextMove() {
   } else {
     move = Move::moveTo(moves[random]->source.value(), moves[random]->destination.value());
   }
-
-  // int idest = getRow(move->destination.value()), jdest = getCol(move->destination.value());
-
-  // if (isEnemyPiece(k, board[idest][jdest])) {
-  //   if (playSide == WHITE) {
-  //     pwhite.push_back(board[idest][jdest]);
-  //   }
-  //   else if (playSide == BLACK) {
-  //     pblack.push_back(board[idest][jdest]);
-  //   }
-  // }
-
-
   deallocateVector(moves);
 
   return move;
